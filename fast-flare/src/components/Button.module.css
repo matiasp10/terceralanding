@@ -1,0 +1,26 @@
+.btn {
+  display: flex;
+  color: #f9f4da;
+}
+
+.container {
+  padding: 1rem 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fcba28;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #0f0d0e;
+}
+
+a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #0f0d0e;
+}

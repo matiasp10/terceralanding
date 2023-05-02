@@ -1,0 +1,45 @@
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6rem;
+}
+
+.container {
+  width: 50%;
+  background-color: #fcba28;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.title {
+  font-family: 'Paytone One', sans-serif;
+  font-size: 36px;
+}
+
+.subtitle {
+  font-size: 24px;
+}
+
+.rojo {
+  font-weight: 700;
+  color: #ed203d;
+  text-decoration: underline;
+}
+
+.verde {
+  font-weight: 700;
+  color: #0ba95b;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+    border-radius: 0;
+  }
+}

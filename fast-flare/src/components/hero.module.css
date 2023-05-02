@@ -1,0 +1,88 @@
+.heroSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-family: 'Paytone One', sans-serif;
+  color: #f9f4da;
+  font-weight: 700;
+  font-size: 48px;
+  text-align: center;
+  margin: 0;
+}
+
+.subtitle {
+  font-family: 'Paytone One', sans-serif;
+  color: #fcba28;
+  font-weight: 700;
+  font-size: 42px;
+  text-align: center;
+  margin-top: 0;
+}
+
+.description {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 500;
+  color: #f9f4da;
+  padding-bottom: 1rem;
+  text-align: center;
+  font-size: 24px;
+}
+
+header {
+  width: 50%;
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.social {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.social svg {
+  padding: 0 20px;
+}
+
+aside {
+  width: 50%;
+  padding: 1rem;
+}
+
+.image {
+  border-radius: 1rem;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+  .heroSection {
+    flex-direction: column;
+  }
+  .image {
+    height: auto;
+    border-radius: 0;
+  }
+  aside {
+    width: 100%;
+  }
+  .title {
+    font-size: 32px;
+  }
+  .subtitle {
+    font-size: 28px;
+  }
+  .description {
+    font-size: 18px;
+    padding: 10px;
+  }
+  header {
+    width: 100%;
+  }
+}

@@ -1,0 +1,50 @@
+---
+import Disponibility from '../components/Disponibility';
+import Hero from '../components/Hero';
+import Nav from '../components/Nav';
+import Location from '../components/Location';
+import Footer from '../components/Footer';
+import WhatsappChat from '../components/WhatsappChat';
+import Carousel from '../components/Carousel';
+import Testimonials from '../components/Testimonials';
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap"
+      rel="stylesheet"
+    />
+    <title>Palandri Maderas</title>
+  </head>
+  <body>
+    <Nav />
+    <Hero />
+    <Disponibility client:load />
+    <Location />
+    <Carousel />
+    <Testimonials />
+    <Footer />
+    <WhatsappChat />
+  </body>
+</html>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;500;700&family=Paytone+One&display=swap');
+
+  * {
+    padding: 0;
+    margin: 0;
+    background-color: #0f0d0e;
+    font-family: 'Outfit', sans-serif;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+</style>

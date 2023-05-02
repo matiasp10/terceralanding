@@ -1,0 +1,42 @@
+.container {
+  height: 100px;
+  background-color: #fcba28;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  font-family: 'Paytone One', sans-serif;
+  font-size: 24px;
+}
+
+.telefono {
+  display: flex;
+  flex-direction: column;
+}
+
+.direccion {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+span {
+  text-align: center;
+  margin: 3px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    font-size: 20px;
+  }
+  .container {
+    height: auto;
+    flex-direction: column;
+  }
+}

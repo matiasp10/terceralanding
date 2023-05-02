@@ -1,0 +1,53 @@
+.container {
+  width: 100%;
+  height: 6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo a {
+  font-family: 'Paytone One', sans-serif;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 24px;
+  padding-left: 0.5rem;
+}
+
+.logo span {
+  color: #fcba28;
+  font-weight: bold;
+}
+
+.menu {
+  margin-right: 20px;
+}
+
+.menu ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.menu li {
+  margin: 0 20px;
+}
+
+.menu li a {
+  font-size: 24px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #f9f4da;
+}
+
+@media screen and (max-width: 768px) {
+  .logo a {
+    margin-left: 0;
+    font-size: 24px;
+  }
+  .menu li a {
+    font-size: 18px;
+  }
+  .menu li {
+    margin: 0 5px;
+  }
+}
